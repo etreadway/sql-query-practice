@@ -178,7 +178,7 @@ limit 1;
 Answer: 54
 
 select count(*) from food_des
-where long_desc like '%Egg%';
+where long_desc ilike '%Egg%';
 
 7. Write a query that will return a count of foods in each food group
 
